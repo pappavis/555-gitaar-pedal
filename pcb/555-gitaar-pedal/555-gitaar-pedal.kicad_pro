@@ -426,7 +426,7 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "",
+      "netlist": "555-gitaar-pedal.net",
       "specctra_dsn": "",
       "step": "",
       "vrml": ""
@@ -456,7 +456,7 @@
     "meta": {
       "version": 1
     },
-    "net_format_name": "",
+    "net_format_name": "Spice Model",
     "ngspice": {
       "fix_include_paths": true,
       "meta": {
