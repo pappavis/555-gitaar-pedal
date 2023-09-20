@@ -4,6 +4,14 @@
 
   (paper "A4")
 
+  (title_block
+    (title "555-gitaar pedal")
+    (date "2023-09-20")
+    (company "door Michiel Erasmus")
+    (comment 1 "michiel@voorspoed.ru")
+    (comment 2 "Easylab4kids")
+  )
+
   (lib_symbols
     (symbol "Amplifier_Audio:LM386" (pin_names (offset 0.127)) (in_bom yes) (on_board yes)
       (property "Reference" "U" (at 1.27 7.62 0)
