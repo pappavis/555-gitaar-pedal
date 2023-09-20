@@ -1,0 +1,24 @@
+*
+
+.subckt 555-gitaar-pedal
+
+
+.model __Q1 PNP
+Q1 Net-_Q1-C_ Net-_Q1-B_ BC547 __Q1
+D2 __D2
+R2 Net-_Q1-C_ +9V 470
+R1 Net-_D1-A_ Net-_Q1-B_ 470
+J2 __J2
+RV2 __RV2
+C4 TRIG GND 220u
+R3 +9V +9V 470
+U2 __U2
+C3 Net-_C3-Pad1_ Net-_C3-Pad2_ 220u
+C2 Net-_C2-Pad1_ Net-_U2-+_ 1u
+RV1 __RV1
+U1 __U1
+D1 __D1
+J1 __J1
+C1 Net-_C1-Pad1_ Net-_C1-Pad2_ 10u
+
+.ends
