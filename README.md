@@ -1,4 +1,4 @@
-# 555-gitaar-pedal
+# 555-guitaar-pedal
 Guitar pedal using NE555 timer chip and LM386 OpAmp
 
 KICAD schema:<br>
